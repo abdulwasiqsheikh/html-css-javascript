@@ -1,0 +1,30 @@
+body {
+    background-color: green;}
+
+.Start {
+    text-align: center;
+    font-size: 20;
+    text-decoration: underline;
+    color: white;
+    background-color: black;
+}
+
+div > h2 {
+    text-decoration: underline;
+    color: white;
+}
+
+div > p {
+    color: white;
+}
+
+ul > li {
+    color: red;
+}
+ol > li {
+    color: blue;
+}
+
+ul  li {
+    color: black;
+}

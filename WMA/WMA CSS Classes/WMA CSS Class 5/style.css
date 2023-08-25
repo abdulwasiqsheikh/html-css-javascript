@@ -1,0 +1,53 @@
+.body {
+    text-align: center;
+}
+
+div > header {
+    text-align: center;
+    text-decoration: underline ;
+
+    
+}
+
+/* Margin */
+
+.box {
+    height: 350px;
+    width: 600px;
+    background-color: peachpuff;
+    margin-inline: auto;
+    margin-top: 150px;
+    border: dashed 2px;
+    text-align: center;
+}
+
+/* Border */
+
+.box > div{
+    height: 250px;
+    width: 450px;
+    background-color: rgb(246, 246, 164);
+    margin-inline: auto;
+    border: solid 2px;
+}
+
+/* Padding */
+
+.box > div > div{
+    height: 150px;
+    width: 300px;
+    background-color: lightgreen;
+    border: dashed 2px;
+    margin-inline: auto;
+    /* margin-top: 20px; */
+}
+
+/* Content */
+
+.box > div > div > div{
+    height: 50px;
+    width: 200px;
+    background-color: skyblue;
+    border: solid 2px;
+    margin-inline: auto;
+}

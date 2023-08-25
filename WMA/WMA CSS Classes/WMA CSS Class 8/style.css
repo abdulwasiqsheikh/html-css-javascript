@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    min-height: 100vh;
+    background-color: gray;
+}
+
+/* .main {
+    min-height: 100vh;
+    min-width: 100vw;
+    background-color: green;
+    position: relative;
+}
+
+.Sign-up {
+    position: absolute;
+    right: 100px;
+    top: 50px;
+    padding: 10px 20px;
+}
+
+.Sign-up > span {
+    position: relative;
+}
+.Sign-up > span > img {
+    width: 20px;
+    position: absolute;
+
+}
+
+.circle {
+    height: 500px;
+    width: 500px;
+    background-color: #fff;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+    border-radius: 50%;
+} */
+
+.zindex {
+    background-color: white;
+    height: 500px;
+    width: 500px;
+    border-bottom-right-radius: 10rem;
+}
+
+.one, .two, .three {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
+
+.zindex > .one {
+    background-color: red;
+    left: 0;
+    top: 0;
+    border-bottom-right-radius: 10rem;
+    z-index: 1  ;
+}
+
+.zindex > .two {
+    background-color: rgb(43, 0, 255);
+    left: 20px;
+    top: 20px;
+    border-bottom-right-radius: 10rem;
+    z-index: 2  ;
+} 
+
+.zindex > .three {
+    background-color: rgb(4, 255, 0);
+    left: 40px;
+    top: 40px;
+    border-bottom-right-radius: 10rem;
+    z-index: 3  ;
+} 

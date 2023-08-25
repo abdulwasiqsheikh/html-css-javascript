@@ -1,0 +1,77 @@
+body {
+    background-image: url(istockphoto-170958625-170667a.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+
+/* header */
+
+.header {
+    display: flex;
+    padding: 1px;
+    align-items: center;
+    color: green;
+    justify-content: space-between;
+
+}
+
+.wer {
+    margin-left: auto;
+}
+
+.buttn {
+    margin-left: auto;
+}
+
+/* div > a {
+    text-decoration: underline
+    none;
+} */
+
+/* .iop {
+    margin: 1px 1px 1px 830px;
+} */
+
+/* h2 ul li form button
+   h2 ul li form button  */
+
+.main {
+    margin: 94px 0px 0px 140px;
+    color: green;
+}
+/* reminder */
+
+/* hr {
+    margin-right: auto;
+} */
+
+.main >  ul {
+    color: blue;
+
+}
+
+/* h2
+   h2 */
+
+.wwq {
+    text-decoration: underline;
+}
+
+/* footer */
+
+.hgf {
+    text-align: center;
+    align-items: center;
+    
+}
+
+/* button
+   button */
+
+/* .jkl {
+    text-align: center;
+    width: 10px;
+    height: 10px;
+} */

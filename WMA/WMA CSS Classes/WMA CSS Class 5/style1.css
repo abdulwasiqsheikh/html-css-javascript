@@ -1,0 +1,31 @@
+body{
+    background-color: rgb(216, 210, 25);
+    text-align: center;
+    align-items: center;
+}
+
+div > h1{
+    color: orange;
+    font-style: italic;
+    
+}
+
+.box{
+    height: 300px;
+    width: 400px;
+    text-align: center;
+    background-color: white;
+    box-shadow: 2px 2px 2px 2px #302b2b;
+    margin-inline: auto;
+    margin-top: 100px;
+    padding-top: 50px;
+    /* border-top-left-radius: 55px;
+    border-bottom-left-radius: 55px;
+     */
+     border-radius: 55px;
+}
+.input-1{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}

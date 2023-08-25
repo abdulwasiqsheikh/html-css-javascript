@@ -1,0 +1,60 @@
+.grid-box {
+    display: grid;
+    grid-template-columns:300px 100px 100px 300px;
+    row-gap: 10px;
+    column-gap: 50px;
+    
+
+
+    /* used for moving grid box  */
+
+    /* left to right */
+    
+    
+
+
+}
+
+.grid-box div {
+    font-size: 30px;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+
+.grid-box  :nth-child(1){
+    background-color: red;
+}
+.grid-box  :nth-child(2){
+    background-color: rgb(4, 255, 92);
+}
+.grid-box  :nth-child(3){
+    background-color: rgb(240, 182, 23);
+}
+.grid-box  :nth-child(4){
+    background-color: rgb(71, 12, 174);
+}
+.grid-box  :nth-child(5){
+    background-color: rgb(171, 12, 174);
+}
+.grid-box  :nth-child(6){
+    background-color: rgb(12, 174, 101);
+}
+.grid-box  :nth-child(7){
+    background-color: rgb(147, 174, 12);
+}
+.grid-box  :nth-child(8){
+    background-color: rgb(174, 12, 12);
+}
+.grid-box  :nth-child(9){
+    background-color: rgb(49, 100, 100);
+}
+.grid-box  :nth-child(10){
+    background-color: rgb(95, 55, 96);
+}
+.grid-box  :nth-child(11){
+    background-color: rgb(94, 74, 11);
+}
+.grid-box  :nth-child(12){
+    background-color: rgb(174, 125, 12);
+}

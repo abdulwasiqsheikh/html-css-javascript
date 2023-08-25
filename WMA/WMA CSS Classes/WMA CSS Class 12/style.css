@@ -1,0 +1,76 @@
+body{
+    min-height: 100vh;
+    background-color: gray;
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    justify-content: center;
+    /* justify-content: end;
+    justify-content: space-between;
+    justify-content: space-around;
+    justify-content: space-evenly; */
+    row-gap: 10px;
+    column-gap: 10px;
+    gap: 10px;
+}
+
+.main{
+    height: 1000px;
+    align-items: end;
+    align-items: start;
+    align-items: center;
+}
+
+.one , .three , .five{
+    background-color: red;
+    /* text-align: center; */
+}
+
+.two , .four{
+    background-color: yellow;
+    /* text-align: center; */
+}
+
+.main div{
+    height: 100px;
+    width: 100px;
+    /* margin-bottom: 10px; */
+    border: solid 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: spin ;
+    animation-duration: .5s;
+    animation-delay: 3;
+    animation-iteration-count: infinite;
+    animation: spin 3s infinite .5s;
+}
+
+@keyframes spin {
+
+    0%{
+        transform: rotate(180deg) translateX(0px);
+    }
+
+    25%{
+        transform: rotate(135deg) translateX(-250px);
+    }
+
+    50%{
+        transform: rotate(90deg) translateX(500px);
+    }
+
+    75%{
+        transform: rotate(45deg) translateX(-250px);
+    }
+
+    100%{
+        transform: rotate(0deg) translateX(0px);
+    }
+    
+}

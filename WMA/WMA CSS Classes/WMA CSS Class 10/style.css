@@ -1,0 +1,47 @@
+body{
+    min-height: 100vh;
+    background-color: gray;
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    justify-content: center;
+    justify-content: end;
+    justify-content: space-between;
+    justify-content: space-around;
+    justify-content: space-evenly;
+    row-gap: 10px;
+    column-gap: 10px;
+    gap: 10px;
+}
+
+.main{
+    height: 1000px;
+    align-items: center;
+    align-items: end;
+    align-items: start;
+}
+
+.one , .three , .five{
+    background-color: red;
+    /* text-align: center; */
+}
+
+.two , .four{
+    background-color: yellow;
+    /* text-align: center; */
+}
+
+.main div{
+    height: 100px;
+    width: 100px;
+    /* margin-bottom: 10px; */
+    border: solid 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
